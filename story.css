@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+}
+.header {
+  margin-top: 20px;
+  display: flex;
+}
+.header .logo h1 {
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.header .logo h1 a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.header .logo h1 a:hover {
+  color: red;
+  border-bottom: 2px solid rgb(255, 0, 0);
+}
+.header .search input {
+  background: none;
+  width: 500px;
+  height: 38px;
+  padding: 20px;
+  margin-left: 150px;
+  border: 0.2px solid rgb(42, 42, 42);
+  border-radius: 20px;
+}
+.header .search button {
+  background: none;
+  width: 80px;
+  height: 38px;
+  line-height: 38px;
+  border: 0.2px solid rgb(42, 42, 42);
+  border-radius: 20px;
+  margin-right: 100px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.header .search button:hover {
+  background: #a9ad30;
+}
+.header .login {
+  line-height: 48px;
+}
+.header .login a {
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+  background: #a9ad30;
+  border-radius: 20px;
+}
+.menu {
+  margin-top: 5px;
+  background: #313035;
+  height: 33px;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  line-height: 33px;
+  transition: 0.5s;
+}
+.menu ul li a:hover {
+  color: red;
+  border-bottom: 1px solid red;
+}
