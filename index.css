@@ -221,7 +221,7 @@ article h1 {
     display: none;
   }
   .login {
-    margin-left: 200px;
+    margin-left: 100px;
   }
   .card-box {
     display: none;
@@ -229,5 +229,8 @@ article h1 {
   .items {
     width: 40%;
     margin: auto;
+  }
+  .menu ul li a {
+    font-size: 10px;
   }
 }
