@@ -85,6 +85,10 @@ article h1 {
   margin-top: 10px;
   text-align: center;
 }
+.story {
+  width: 1200px;
+  margin: auto;
+}
 .items {
   margin-top: 15px;
   text-align: center;
@@ -211,8 +215,14 @@ article h1 {
   .card-box {
     display: none;
   }
+  .story {
+    margin: auto;
+  }
   .items {
     width: 25%;
+  }
+  footer {
+    display: none;
   }
 }
 @media only screen and (max-width: 46.24em) {
@@ -226,11 +236,22 @@ article h1 {
   .card-box {
     display: none;
   }
-  .items {
-    width: 40%;
+  .story {
     margin: auto;
+    width: 320px;
+  }
+  .items {
+    width: 35%;
+    margin-right: 40px;
   }
   .menu ul li a {
-    font-size: 10px;
+    font-size: 15px;
+  }
+  .containers {
+    display: unset;
+    margin-right: 150px;
+  }
+  footer {
+    display: none;
   }
 }
