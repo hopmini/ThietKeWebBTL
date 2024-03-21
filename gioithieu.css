@@ -81,38 +81,69 @@
   color: red;
   border-bottom: 1px solid red;
 }
-.text h1 {
-  font-size: 40px;
-  color: #a9ad30;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding-top: 50px;
-}
-.text p {
-  font-size: 20px;
-}
-.chapter {
-  justify-content: center;
-  padding-top: 10px;
+/* Giới Thiệu Truyện */
+article {
+  width: 1200px;
   display: flex;
 }
-.chapter a {
+
+.main {
+  margin-top: 50px;
+  width: 1000px;
+  display: flex;
+}
+.text {
+  margin-left: 50px;
+}
+.text h1 {
+  font-size: 30px;
   text-align: center;
-  margin-left: 5px;
+}
+.text button {
+  margin-top: 40px;
+  background: none;
+  width: 100px;
+  padding: 8px;
+  border: 0.3px solid gray;
+  border-radius: 20px;
+  float: right;
+  margin-right: 250px;
+  transition: 0.5s;
+}
+.text button a {
   text-decoration: none;
-  color: white;
-  padding: 5px;
+  color: black;
+}
+.text button:hover {
   background: #a9ad30;
 }
-.chap {
-  width: 120px;
+.danhmuc {
+  margin-top: 50px;
+  width: 200px;
 }
-.story {
-  padding-top: 10px;
+.danhmuc {
+  width: 150px;
+  text-align: center;
+  background: #fff;
+  margin-bottom: 12px;
+  border-top: 1px solid #e5e6e9;
+  border-bottom: 1px solid #e5e6e9;
 }
-.story p {
-  font-size: 25px;
-  margin-left: 40px;
+.danhmuc header {
+  padding: 8px 10px;
+  border-bottom: 1px solid #e5e6e9;
+  color: #2f52b2;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.categories a {
+  width: 100%;
+  float: left;
+  padding: 6px 6px 6px 20px;
+  color: #444;
+  text-transform: capitalize;
 }
 /* Footer */
 .containers {

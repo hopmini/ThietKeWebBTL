@@ -81,38 +81,84 @@
   color: red;
   border-bottom: 1px solid red;
 }
-.text h1 {
-  font-size: 40px;
-  color: #a9ad30;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding-top: 50px;
+.slide {
+  width: 1200px;
+  background: gray;
+  height: 70px;
 }
-.text p {
-  font-size: 20px;
+.slide h1 {
+  margin-left: 50px;
+  line-height: 70px;
+  color: white;
 }
-.chapter {
-  justify-content: center;
-  padding-top: 10px;
+article {
   display: flex;
+  margin-top: 50px;
 }
-.chapter a {
+.main {
+  width: 900px;
+}
+.text {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.board {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.board p {
+  margin-bottom: 5px;
+}
+.board input {
+  height: 30px;
+  width: 850px;
+}
+.board textarea {
+  width: 850px;
+  height: 100px;
+}
+button {
+  margin-top: 15px;
   text-align: center;
-  margin-left: 5px;
+  padding: 8px;
+  background: #a9ad30;
+  border: 0.2px solid gray;
+  border-radius: 10px;
+}
+button a {
   text-decoration: none;
   color: white;
+}
+.category {
+  text-align: center;
+  width: 300px;
+}
+.support {
+  width: 280px;
+  height: 150px;
+  border: 0.2px solid gray;
+  text-align: center;
+}
+.support p {
+  margin-top: 20px;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.support a {
+  border: 1px solid gray;
   padding: 5px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background: gray;
+}
+.support a:hover {
   background: #a9ad30;
 }
-.chap {
-  width: 120px;
-}
-.story {
-  padding-top: 10px;
-}
-.story p {
-  font-size: 25px;
-  margin-left: 40px;
+.quangcao img {
+  width: 280px;
 }
 /* Footer */
 .containers {

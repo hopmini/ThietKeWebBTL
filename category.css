@@ -81,15 +81,17 @@
   color: red;
   border-bottom: 1px solid red;
 }
+article {
+  display: flex;
+  padding-top: 50px;
+}
 .card-box {
-  width: 1200px;
-  text-align: center;
+  width: 800px;
   background: #fff;
   margin-top: 20px;
   margin-bottom: 12px;
   border-top: 1px solid #e5e6e9;
   border-bottom: 1px solid #e5e6e9;
-  position: absolute;
 }
 .card-box header {
   padding: 8px 10px;
@@ -102,9 +104,79 @@
   text-transform: uppercase;
 }
 .categories a {
-  width: 25%;
+  width: 30%;
   float: left;
   padding: 6px 6px 6px 20px;
   color: #444;
   text-transform: capitalize;
+}
+.quangcao img {
+  margin-left: 30px;
+  width: 350px;
+}
+/* Footer */
+.containers {
+  padding-top: 100px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.footer-content {
+  width: 33.3%;
+}
+.footer-content h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.footer-content p {
+  width: 190px;
+  margin: auto;
+  padding: 7px;
+}
+.footer-content ul {
+  text-align: center;
+}
+.list {
+  padding: 0;
+}
+.list li {
+  list-style: none;
+  width: auto;
+  text-align: center;
+  padding: 7px;
+  position: relative;
+}
+.list li a {
+  color: black;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: #333;
+  border-radius: 50%;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+.footer-content a {
+  text-decoration: none;
+}
+.footer-content a:hover {
+  color: red;
+}
+.social-icons i:hover {
+  color: red;
 }

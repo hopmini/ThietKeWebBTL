@@ -98,7 +98,6 @@ article h1 {
 }
 .items img {
   width: 150px;
-  border: 0.5px solid gray;
 }
 .items .name-story {
   text-align: center;
@@ -107,11 +106,14 @@ article h1 {
   color: rgb(34, 34, 34);
 }
 .items button {
-  margin-top: 15px;
-  background: none;
+  margin-top: 50px;
   padding: 5px;
   border: 1px solid gray;
   border-radius: 10px;
+  transition: 0.5s;
+}
+.items button:hover {
+  background: #a9ad30;
 }
 .items button a {
   text-decoration: none;
@@ -119,7 +121,6 @@ article h1 {
 }
 .card-box {
   width: 150px;
-  text-align: center;
   background: #fff;
   margin-top: 100px;
   margin-bottom: 12px;
@@ -145,6 +146,7 @@ article h1 {
   text-transform: capitalize;
 }
 .containers {
+  padding-top: 100px;
   width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -245,7 +247,7 @@ article h1 {
     margin-right: 40px;
   }
   .menu ul li a {
-    font-size: 15px;
+    font-size: 13px;
   }
   .containers {
     display: unset;
